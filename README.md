@@ -22,7 +22,7 @@
 
 -------
 
-### Support paid
+### Support
 Telegram: @Official_Mr_Robot
 
 BTC: 1PoieWSbe1A7o2nAuXE37ncQHnGqxcdhJc
