@@ -8,9 +8,9 @@
 	<img src="https://i.postimg.cc/fbC5yc5Q/image.png" />
 </p>
 
-<p align="center">
+
  <src="https://youtu.be/hPvmXMICrWk">
-</p>
+
 -------
 
 ### Functionality
