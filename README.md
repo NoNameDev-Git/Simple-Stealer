@@ -9,8 +9,7 @@
 </p>
 
 
- <src="https://youtu.be/hPvmXMICrWk">
-
+<a href="https://youtu.be/hPvmXMICrWk"> how to assemble stealer </a>
 -------
 
 ### Functionality
