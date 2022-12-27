@@ -9,7 +9,7 @@
 </p>
 
 
-<a href="https://youtu.be/hPvmXMICrWk"> how to assemble stealer </a>
+
 -------
 
 ### Functionality
@@ -21,6 +21,8 @@
 + Discord
 + FileZilla
 + Uses WebBrowserPassView and ChromePass files to get passwords
+
+<a href="https://youtu.be/hPvmXMICrWk"> how to assemble stealer </a>
 
 -------
 
