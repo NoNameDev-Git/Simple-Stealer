@@ -22,8 +22,8 @@
 + FileZilla
 + Uses WebBrowserPassView and ChromePass files to get passwords
 
-<a href="https://youtu.be/hPvmXMICrWk"> how to assemble stealer </a>
 
+[![video]()](https://youtu.be/hPvmXMICrWk)
 -------
 
 ### Support
