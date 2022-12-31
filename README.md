@@ -23,7 +23,9 @@
 + Uses WebBrowserPassView and ChromePass files to get passwords
 
 
+<div display: block; margin-left: auto; margin-right: auto>
 [![video](https://i.postimg.cc/xCCBGQhj/images.jpg)](https://youtu.be/hPvmXMICrWk)
+</div>
 -------
 
 ### Support
